@@ -1,4 +1,3 @@
-import project from '../assets/wallpaper15.jpg'
 
 
 export const projectsData = [
@@ -8,7 +7,7 @@ export const projectsData = [
         tags: ["React", "Node", "Tailwind"],
         github: "https://github.com/Amandeep563/",
         live: "https://google.com",
-        image: project
+        image: "screenshot"
     },
     {
         title: "zoro",
@@ -16,7 +15,7 @@ export const projectsData = [
         tags: ["JavaScript", "API", "Vue"],
         github: "https://github.com/Amandeep563/",
         live: "https://google.com",
-        image: project
+        image: "screenshot"
     },
     {
         title: "Namii",
@@ -24,6 +23,6 @@ export const projectsData = [
         tags: ["React", "Namii", "CSS"],
         github: "https://github.com/Amandeep563/",
         live: "https://google.com",
-        image: project
+        image: "screenshot"
     }
 ];
