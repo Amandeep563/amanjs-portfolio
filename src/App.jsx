@@ -1,9 +1,7 @@
-import { useState } from "react"
 import Contact from "./components/Contact"
+import About from "./components/About"
 import Hero from "./components/Hero"
 import Projects from "./components/Projects"
-import { useEffect } from "react"
-import { motion } from "framer-motion"
 
 const App = () => {
     // const [loading, setLoading] = useState(true)
@@ -31,6 +29,10 @@ const App = () => {
         <main className="bg-black">
             <section id="hero" className="relative h-screen">
                 <Hero />
+            </section>
+
+            <section id="about" className="relative">
+                <About />
             </section>
 
 
