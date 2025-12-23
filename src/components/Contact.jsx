@@ -30,9 +30,7 @@ const Contact = () => {
 
                 <div className="mt-10 flex flex-col gap-6">
                     <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=amandeepbollampalli@gmail.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="mailto:amandeepbollampalli@gmail.com"
                         className="bg-yellow-400 border-4 border-black p-4 flex items-center justify-center gap-4 shadow-[8px_8px_0px_#000] hover:bg-yellow-300 transition-colors"
                     >
                         <span className="font-black text-2xl uppercase italic">Send a Signal</span>
