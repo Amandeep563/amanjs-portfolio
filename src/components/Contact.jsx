@@ -41,13 +41,15 @@ const Contact = () => {
 
                     <div className="grid grid-cols-2 gap-4">
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/amandeep-bollampalli/"
+                            target='_blank'
                             className="bg-black text-white p-4 border-4 border-black flex items-center justify-center shadow-[8px_8px_0px_#eab308] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
                         >
                             <span className="font-bold uppercase italic tracking-tighter text-lg">LinkedIn</span>
                         </a>
                         <a
-                            href="#"
+                            href="https://github.com/Amandeep563"
+                            target='_blank'
                             className="bg-white text-black p-4 border-4 border-black flex items-center justify-center shadow-[8px_8px_0px_#000] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
                         >
                             <span className="font-bold uppercase italic tracking-tighter text-lg">GitHub</span>

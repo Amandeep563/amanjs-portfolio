@@ -1,5 +1,5 @@
 import { motion, useMotionValue, useTransform } from 'framer-motion';
-
+import heroImg from '../assets/hero.webp'
 import reactIcon from '../assets/React_light.svg';
 import tailwindIcon from '../assets/tailwindcss.svg';
 import html from "../assets/html5.svg"
@@ -49,7 +49,7 @@ const Hero = () => {
         >
             <div
                 style={{
-                    backgroundImage: `url("https://cdn.jsdelivr.net/gh/Amandeep563/amanjs@main/src/assets/hero.webp")`,
+                    backgroundImage: `url(${heroImg})`,
                 }}
                 className="absolute inset-0 bg-cover bg-center"
             />
