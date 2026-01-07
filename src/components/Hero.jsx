@@ -102,7 +102,7 @@ const Hero = () => {
                         <motion.div
                             key={index}
                             variants={itemVariants}
-                            className={`bg-white p-2 border-[3px] border-black shadow-[4px_4px_0px_#000] ${skill.rot} hover:scale-110 transition-transform cursor-pointer`}
+                            className={`bg-white p-2 border-[3px] border-black shadow-[4px_4px_0px_#000] ${skill.rot}`}
                         >
                             <img src={skill.src} alt="skill" className="w-8 h-8 md:w-10 md:h-10 object-contain" />
                         </motion.div>

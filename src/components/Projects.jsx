@@ -8,11 +8,12 @@ const ProjectCard = ({ title, description, tags, index, github, live, image }) =
 
     return (
         <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true, margin: "-50px" }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true, margin: "-100px" }}
             whileHover={{ scale: 1.02, rotate: 0, zIndex: 10 }}
-            className={`relative bg-white border-[4px] md:border-[6px] border-black p-4 md:p-6 shadow-[15px_15px_0px_#000] md:shadow-[20px_20px_0px_#000] ${rotation} transition-all mb-16`}
+            className={`relative bg-white border-[4px] md:border-[6px] border-black p-4 md:p-6 shadow-[15px_15px_0px_#000] md:shadow-[20px_20px_0px_#000] ${rotation} mb-16`}
         >
             <div className="w-full h-56 md:h-96 bg-gray-100 border-4 border-black overflow-hidden relative group">
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10" />
